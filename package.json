@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "WTFPL",
+  "author": "aaron@sparrow-sw.dev",
   "scripts": {
     "setup:remote": "git submodule update --init --recursive --remote",
     "setup:develop": "./scripts/checkout.and.pull.develop.sh",

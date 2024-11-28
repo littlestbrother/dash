@@ -68,11 +68,8 @@ services:
       - init-clock-in-table
     command:
       [
-        "./docker-wait-for-it.sh",
-        "mysql:3306",
-        "--",
         "yarn",
-        "start:development",
+        "start",
       ]
     stdin_open: true
     tty: true
