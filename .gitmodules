@@ -1,3 +1,6 @@
 [submodule "dash-api"]
 	path = dash-api
 	url = https://github.com/littlestbrother/dash-api
+[submodule "dash-app"]
+	path = dash-app
+	url = https://github.com/littlestbrother/dash-app

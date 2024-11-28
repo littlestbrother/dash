@@ -5,6 +5,7 @@
   "license": "WTFPL",
   "author": "aaron@sparrow-sw.dev",
   "scripts": {
+    "setup": "git submodule update --init --recursive",
     "setup:remote": "git submodule update --init --recursive --remote",
     "setup:develop": "./scripts/checkout.and.pull.develop.sh",
     "docker:build": "docker-compose build --parallel --build-arg SSH_KEY=\"$(cat ~/.ssh/id_rsa)\"",
